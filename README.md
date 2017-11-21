@@ -1,4 +1,6 @@
 # Email-system
+This project is a replica of the current E mail sending system. A user can create an account, send and receive messages.
+
 Note: Need to have Xampp installed <br>
 
 Steps to run this code:<br>

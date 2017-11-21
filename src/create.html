@@ -1,0 +1,51 @@
+<?php
+echo $_COOKIE["name"];
+>
+
+
+<html>
+<head>
+<title>
+registration</title>
+<script src="validation.js">
+</script>
+
+</head>
+<body bgcolor=lightblue align=center >
+
+
+<b><font size=50 color=blue>Create Mail </b>
+
+
+<form action=create.php method="post">
+<table>
+<tr>
+<th align=left>
+To
+</th>
+<td><input name="receiver" type=text maxlength=50></td></tr>
+<tr><th align=left>
+Message
+</th>
+<td colspan=15 width=20>
+<textarea name=message rows=5 cols=20>
+</textarea></td></tr>
+
+
+
+
+<tr>
+<td>
+<input type=Submit value=Send here>
+</td>
+<td>
+<input type=reset>
+</td>
+</tr>
+
+
+
+</table>
+</body>
+</html>
+

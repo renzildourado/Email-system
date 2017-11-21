@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>
+registration</title>
+<script src="validation.js">
+</script>
+
+</head>
+<body bgcolor=lightblue align=center >
+
+
+<b><font size=50 color=blue>Registration Form </b>
+<marquee scrollamount=20><font color=green>Please fill the correct details</font></marquee>
+
+<form action=submit.php method="post">
+<table>
+<tr>
+<th align=left>
+First Name 
+</th>
+<td><input name="fname" type=text maxlength=20></td></tr>
+<tr><th align=left>
+Middle Name 
+</th>
+<td><input name="mname" type=text maxlength=20></td></tr>
+<tr><th align=left>
+Last Name 
+</th>
+<td><input name="lname" type=text maxlength=20></td></tr>
+
+
+<tr>
+<th align=left>
+Address:-
+<td colspan=15 width=20>
+<textarea name=address rows=5 cols=20>
+</textarea></td>
+</tr>
+<tr>
+<th align=left>
+Gender 
+</th>
+<td><input type="radio" name="gender">Male
+<input type="radio" name="gender">Female</td>
+</tr>
+
+<tr>
+<th align=left>Contact Number </th>
+<td><input name="contact" type=numeric maxlength=20></td>
+</tr>
+<tr>
+<th align=left>
+User ID </th>
+<td><input name="email" type=text maxlength=50>@atit.com</td>
+</tr>
+<tr>
+<th align=left>
+Password </th>
+<td><input name="password" type=password maxlength=20></td>
+</tr>
+
+
+
+<tr>
+<td>
+<input type=Submit value=Submit here>
+</td>
+<td>
+<input type=reset>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
